@@ -1,0 +1,79 @@
+<html><head>
+<title>Sample-form</title>
+<style>
+	table, tr, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	.left_col {
+		text-align: right;
+		font-weight: bold;
+	}
+	.form-margin {
+		margin-bottom: 0;
+	}
+	.city_row {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-top: none;
+		border-bottom: none;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+<table cellpadding="5">
+	<colgroup>
+		<col width="150px">
+	</colgroup>
+	<tbody><tr>
+		<td class="left_col">Last Name</td>
+		<td>
+			<form class="form-margin">
+				<input type="text" style="width: 98%;">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">First Name</td>
+		<td>
+			<form class="form-margin">
+				<input type="text" style="width: 98%;">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Address</td>
+		<td style="height: 60px;">
+			<form class="form-margin">
+				<input type="textarea" style="height: 45px; width: 90%;">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">City</td>
+		<td style="padding: 0 !important;">
+			<table style="border: none; padding: 0;">
+				<tbody><tr style="border: none; padding: 0;">
+					<td style="border: none;"><input type="text" style="width: 96%; margin-left: 4px;"></td>
+					<td class="city_row"><span style="padding: 5px 5px 5px 5px;"><strong>State</strong></span></td>
+					<td style="border: none;padding: 0;width: 22%;"><input type="number" style="/* padding-left: 0px; */width: 80%;padding: 0px;margin-left: 9px;"></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Zip/Postal Code</td>
+		<td>
+			<input type="text" style="width: 25%;">
+		</td>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+</tbody></table>
+
+
+</body></html>
