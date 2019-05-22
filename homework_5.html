@@ -24,7 +24,7 @@
 <body>
 <table cellpadding="5">
 	<colgroup>
-		<col width="150px">
+		<col width="160px">
 	</colgroup>
 	<tbody><tr>
 		<td class="left_col">Last Name</td>
@@ -65,15 +65,96 @@
 	<tr>
 		<td class="left_col">Zip/Postal Code</td>
 		<td>
-			<input type="text" style="width: 25%;">
+			<input type="nuber" pattern="[0-9]{4}" style="width: 25%;">
 		</td>
 	</tr>
-	<tr></tr>
-	<tr></tr>
-	<tr></tr>
-	<tr></tr>
-	<tr></tr>
-</tbody></table>
+	<tr>
+		<td class="left_col">Country</td>	
+		<td>
+			<input list="countries" name="countries" style="width:65%;">
+				<datalist id="countries">
+				<option value="USA">
+				<option value="Canada">
+				<option value="Germany">
+				<option value="France">
+				<option value="Bulgaria">
+				<option value="England">
+				<option value="Spain">
+				<option value="Brazil">
+				<option value="Argentina">
+				<option value="Switzerland">
+			</datalist>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Phone(country code, area code, number)</td>
+		<td>
+			<span style="padding: 0 5px 0 5px;">(+</span><input type="nuber" style="width:60px;"><span style="padding: 0 3px 0 7px;">)</span>
+			<input type="nuber" style="width:60px;padding-left: 10px;"> - 
+			<input type="nuber">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">E-mail</td>
+		<td>
+			<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="width: 90%;">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Birth date</td>
+		<td>
+			<span style="padding-right: 5px;">Month</span><input type="number" min="1" max="12" style="width: 35px;">
+			<span style="padding: 0 5px 0 10px;">Day</span><input type="number" min="1" max="31" style="width: 35px;">
+			<span style="padding: 0 5px 0 10px;">Year (4 digit)</span><input type="number" min="1960" max="2019" style="width: 70px;">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Gender</td>
+		<td>
+			<input list="gender" style="width: 70px;">
+				<datalist id="gender">
+					<option value="Male">
+					<option value="Female">
+					<option value="Other">
+				</datalist>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Starting date</td>
+		<td>
+			<input type="radio" name="date" value="Spring 2006">Spring 2006
+			<input type="radio" name="date" value="Summer 2006">Summer 2006
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Comments/Questions</td>
+		<td style="height: 120px;">
+			<form class="form-margin">
+				<input type="textarea" placeholder="Please send me more information about the loging" style="height: 100px; width: 80%;">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background-color:#D1EDE1;">
+			<div style="width: 145px; margin: 0 auto;">
+				<input type="submit" name="submit" value="Submit">
+				<input type="reset" value="Clear Form">
+		</td>
+	</tr>
+</tbody>
+</table>
 
 
-</body></html>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
