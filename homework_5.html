@@ -5,6 +5,19 @@
 		border: 1px solid black;
 		border-collapse: collapse;
 	}
+	table.custom, tr.custom, td.custom {
+		border: none;
+	}
+	.col_head {
+		text-align: center;
+		font-weight: bold;
+	}
+	.col_content {
+		text-align: left;
+	}
+	.col_content_1 {
+		font-weight: bold;
+	}
 	.left_col {
 		text-align: right;
 		font-weight: bold;
@@ -18,6 +31,20 @@
 		border-top: none;
 		border-bottom: none;
 		text-align: center;
+	}
+	input[type="range"] {
+		margin-left: 75px;
+	}
+	.custom_fieldset {
+		display: table;
+	}
+	.left_span {
+		float: left;
+		text-align: center;
+	}
+	.right_span {
+		text-align: right;
+		
 	}
 </style>
 </head>
@@ -143,8 +170,287 @@
 	</tr>
 </tbody>
 </table>
-
-
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<table cellpadding="10px">
+	<tr>
+		<td class="col_head" rowspan="2">Order</td>
+		<td class="col_head" colspan="3">Personal Info</td>
+		<td class="col_head" colspan="5">University Marks</td>
+	</tr>
+	<tr>
+		<td class="col_head">First Name</td>
+		<td class="col_head">Last Name</td>
+		<td class="col_head">Faculty Number</td>
+		<td class="col_head">English</td>
+		<td class="col_head">Math</td>
+		<td class="col_head">Biology</td>
+		<td class="col_head">Physics</td>
+		<td class="col_head">Total</td>
+	</tr>
+	<tr>
+		<td class="col_content">1</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">2</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">3</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">4</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">5</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">6</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">7</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">9</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td class="col_content">10</td>
+		<td class="col_content">Pesho</td>
+		<td class="col_content">Yordanov</td>
+		<td class="col_content">123456</td>
+		<td class="col_content">2</td>
+		<td class="col_content">3</td>
+		<td class="col_content">4</td>
+		<td class="col_content">5</td>
+		<td class="col_content_1">3.50</td>
+	</tr>
+	<tr>
+		<td colspan="9">
+			<input type="button" value="Previous">
+			<a href="#">1</a>,
+			<a href="#">2</a>,
+			<a href="#">3</a>,
+			<a href="#">4</a>, ...,
+			<a href="#">10</a>
+			<input type="button" value="Next">
+		</td>
+	</tr>
+</table>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<table cellpadding="10px">
+	<tr>
+		<td colspan="3" style="text-align: center;font-size: 20px;">
+			<a href="#">Apple</a>
+			<a href="#">Toshiba</a>
+			<a href="#">Lenovo</a>
+			<a href="#">Dell</a>
+			<a href="#">Asus</a>
+			<a href="#">Hacer</a>
+			<a href="#">HP</a>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: none;">
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		<td style="border-left: none; border-right: none;">
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		<td rowspan="3" style="border-left: none; font-size: 30px;">
+			<span style="text-align: center;">
+				Min price:  500 USD<br>
+				<input type="range" min="0" max="1000"><br>
+			</span>
+			<span style="text-align: center;">
+			Max price:  1500 USD<br>
+			<input type="range" min="1000" max="10000"><br>
+			</span>
+			<span style="text-align: center;">
+			Min RAM:  4 GB<br>
+			<input type="range" min="0" max="8"><br>
+			</span>
+			<span style="text-align: center;">
+			Max RAM:  16 GB<br>
+			<input type="range" min="8" max="64">
+			</span>
+		</td>
+	</tr>
+	
+</table>
 </body>
 </html>
 
